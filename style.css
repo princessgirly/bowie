@@ -68,6 +68,10 @@ form {
   height: 40px;
   margin-left: -170px;
 }
+.fa-microphone {
+  position: relative;
+  left: -20px;
+}
 #form2 input {
   display: inline;
   padding: 5px 25px 5px 25px;
