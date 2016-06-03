@@ -1,17 +1,25 @@
 html, body {
-  width: 100%;
   height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* -------------1 header---------------*/
+
 header {
 border: 1px solid white;
 height: 10%;
 position: relative;
-top: 0px;
+top: 10px;
 }
 a {
   text-decoration: none;
   color: black;
+  margin-left: 2em;
+}
+i {
+  margin-left: 2em;
 }
 .topright {
   position: absolute;
@@ -24,88 +32,60 @@ a {
 
 #container {
   border: 1px solid white;
-  height: 80%;
+  height: 84%;
   position: relative;
-  margin: auto;
 }
 .bowie, .francais {
  display: flex;
  width: 100%;
 }
 .bowie {
-height: 80px;
-width: 0px;
-margin: 150px 250px 0px 550px;
+height: 100px;
+width: 300px;
+margin: 130px 300px 10px 450px;
 padding: 0px 20px 20px 20px;
-font-family: Helvetica, sans-serif;          /*Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-font-weight: bold;
  }
 .francais {
-  height: 25px;
+  height: 30px;
   float:right;
-  margin-top: 80px;
-  margin-left: -75px;
-  color: rgba(0, 63, 255, 0.65);
-  font-size: 13px;
+  margin-top: 150px;
+  margin-left: -65px;
 }
 .element {
   width: 200px;
   height:300px;
-  color: rgba(251, 49, 49, 0.9);
-  font-size: 80px;
+  color: blue;
+  font-size: 180px;
 }
-.element:nth-child(1) { color: rgba(0, 63, 255, 0.65);}
-.element:nth-child(2) { color: rgba(251, 49, 49, 0.9); }
-.element:nth-child(3) { color: rgba(245, 174, 0, 0.9); }
-.element:nth-child(4) { color: rgba(0, 63, 255, 0.65); }
-.element:nth-child(5) { color: green; }
+.element:nth-child(1) { color: red;}
+.element:nth-child(2) { color: yellow; }
+.element:nth-child(3) { color: blue; }
+.element:nth-child(4) { color: green; }
 
+.h2 {
+  font-size: 20px;
+}
 form {
-  position: absolute;
-  margin: auto;
-  margin: 10px 0px 0px 650px;
-  display: inline;
+  margin-left: 500px;
+  margin-top: 100px;
 }
-#form1 input {
-  display: inline;
-  padding: 5px 25px 5px 25px;
-  width: 500px;
-  height: 40px;
-  margin-left: -170px;
+#recherche {
+padding-top: 10px;
 }
-img {
-  position: absolute;
-  width: 30px;
-  height: 25px;
-  right: 10px;
-  margin-top: 10px;
-}
-#form2 input {
-  display: inline;
-  padding: 5px 25px 5px 25px;
-  margin-left: -100px;
-  margin-top: 80px;
-}
-#form3 input {
-  display: inline;
-  padding: 5px 25px 5px 25px;
-  margin-left: 100px;
-  margin-top: 80px;
-}
-
 
 /* -------------3 footer---------------*/
 footer {
   border: 1px solid white;
-  width: 1500px;
-  height: 10%;
+  height: 5%;
   position: relative;
-  margin: 500px 0px 0px 0px;
+  bottom: 0px;
   background: #f2f2f2;
+  padding-top: 1%;
 }
 a {
   text-decoration: none;
   color: black;
+  margin-left: 2em;
 }
 .left, .right {
   position: absolute;
@@ -113,9 +93,9 @@ a {
 }
 .left {
   left: 0px;
-  padding: 30px;
+  padding: 5px;
 }
 .right {
   right: 0px;
-  padding: 30px;
+  padding: 5px;
 }
